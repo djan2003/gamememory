@@ -1,0 +1,28 @@
+.card {
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #52f2bf;
+    border-radius: 10px;
+    margin: 6px;
+    font-size: 60px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border: 2px solid black;
+}
+
+.card-opened {
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 10px;
+    margin: 6px;
+    font-size: 60px;
+    text-align: center;
+    background-color: gold;
+    transition: transform 1s;
+    border: 2px solid black;
+}
+
+
+.disable {
+    pointer-events: none;
+}
